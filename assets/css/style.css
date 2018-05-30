@@ -34,16 +34,22 @@ a {
     /* background-color:  black; */
 }
 
-/* .b-home {
-    background-color: rgb(187, 236, 255);
-} */
-
 p {
-    font-family: 'Lato', sans-serif;            
+    font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;            
 }
 
 .hayao-q {
-    font-family: 'Lato', sans-serif;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+}
+
+.hayao-qq {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
 }
 
 
@@ -53,6 +59,40 @@ p {
 
 
 
+  .b-nausica {
+    /* background-color: rgb(187, 236, 255); */
+    background-image: url(../images/png/nausica-bg.svg);
+    overflow: hidden;
+}
+
+
+
+
+
+
+ /* castle in the sky */
+
+.movie-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+  }
+
+
+
+.b-castle {
+    /* background-color: rgb(187, 236, 255); */
+    background-image: url(../images/png/castle-bg.svg);
+    overflow: hidden;
+}
+
+
+.b-totoro {
+    /* background-color: rgb(187, 236, 255); */
+    background-image: url(../images/png/totoro-bg.svg);
+    background-repeat: no-repeat;
+    
+}
 
 
 
