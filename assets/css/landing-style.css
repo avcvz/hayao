@@ -27,12 +27,7 @@ a {
 }
 
 
-.card-text {
-  font-family: 'Hind Guntur';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.5vh;
-}
+
 
 #ham {
     border: 0px;
@@ -43,14 +38,14 @@ a {
     font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
-  font-size: 1.9vw;            
+  font-size: 2vw;            
 }
 
 .hayao-q {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
 
 .hayao-qq {
@@ -123,9 +118,6 @@ a {
   font-size: 4.4vw;
 }
 
-#home-animate {
-  animation: fade-in-bck 0.8s ease-out 0.2s both;
-}
 
 
 
