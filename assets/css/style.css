@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+
+
+
+
+
 .floatr {
     /* float: right; */
     
@@ -42,15 +47,14 @@ a {
 .hayao-p {
     font-family: 'Lato';
   font-style: normal;
-  font-weight: 300;
-  font-size: 1.9vw;            
+  font-weight: 300;           
 }
 
 .hayao-q {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 300;
-  font-size: 3vw;
+  font-size: 4vh;
 }
 
 .hayao-qq {
@@ -68,7 +72,7 @@ a {
 
 
 
- .b-nausica {
+.b-nausica {
     /* background-color: rgb(187, 236, 255); */
     background-image: url(../images/png/nausica-bg.svg);
     overflow: hidden;
@@ -89,6 +93,11 @@ a {
     font-weight: 300;
   }
 
+sup {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+}
 
 
 .b-castle {
@@ -123,7 +132,7 @@ a {
   font-size: 4.4vw;
 }
 
-#home-animate {
+{
   animation: fade-in-bck 0.8s ease-out 0.2s both;
 }
 
@@ -154,7 +163,7 @@ a {
 
 
 
- @keyframes fade-in-bck {
+@keyframes fade-in-bck {
     0% {
       transform: translateZ(80px);
       opacity: 0;
@@ -205,11 +214,83 @@ a {
 
 
 
+/* TOTORO AND FRIENDS HERE      */
+
+.character {
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2em;
+
+}
+
+.c-blurb {
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5em;
+
+}
+
+
+
+.t-nausica { background-image: url(../images/totoro-&-friends/nausica.svg);
+  background-repeat: no-repeat;
+          
+}
+          
+          
+.t-ponyo { background-image: url(../images/totoro-&-friends/ponyo.svg);
+  background-repeat: no-repeat;
+          
+}
+
+
+.t-mononoke { background-image: url(../images/totoro-&-friends/mononoke.svg);
+  background-repeat: no-repeat;
+          
+}
+
+
+
+.t-eboshi { background-image: url(../images/totoro-&-friends/eboshi.svg);
+  background-repeat: no-repeat;
+          
+}
+
+.t-sen { background-image: url(../images/totoro-&-friends/sen.svg);
+  background-repeat: no-repeat;
+          
+}
+
+.t-porco-rosso { background-image: url(../images/totoro-&-friends/porco-rosso.svg);
+  background-repeat: no-repeat;
+          
+}
+
+
+
+
+.movie-title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+}
 
 
 
 
 
+#mailme {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  opacity: 0.6;
+  text-decoration: none;
+
+}
 
 
 
@@ -249,7 +330,9 @@ a {
 @media (min-width: 576px) and (max-width: 767.98px) { ... }
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { ... }
